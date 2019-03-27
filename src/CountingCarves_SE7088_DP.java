@@ -31,8 +31,8 @@ public class CountingCarves_SE7088_DP {
 			memoSet = new int[3][N + 1];
 
 			for (int i = 1; i <= N; i++) {
-				for (int j = 0; j < 3; j++) {
-					memoSet[j][i] = memoSet[j][i - 1];
+				for (int race = 0; race < 3; race++) {
+					memoSet[race][i] = memoSet[race][i - 1];
 				}
 
 				int kind = Integer.parseInt(br.readLine()) - 1;
@@ -44,8 +44,8 @@ public class CountingCarves_SE7088_DP {
 				st = new StringTokenizer(br.readLine());
 				int L = Integer.parseInt(st.nextToken());
 				int R = Integer.parseInt(st.nextToken());
-				for (int j = 0; j < 3; j++) {
-					int result = memoSet[j][R] - memoSet[j][L - 1];
+				for (int race = 0; race < 3; race++) {
+					int result = memoSet[race][R] - memoSet[race][L - 1];
 					sb.append(result).append(" ");
 				}
 				sb.append("\n");

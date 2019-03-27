@@ -35,12 +35,12 @@ public class CountingCalves_SE7088_BU {
 			capa = treeSet[0].length / 2;
 
 			for (int i = capa; i < capa + N; i++) {
-				int kind = Integer.parseInt(br.readLine()) - 1;
-				treeSet[kind][i] = 1;
+				int race = Integer.parseInt(br.readLine()) - 1;
+				treeSet[race][i] = 1;
 			}
 			for (int i = capa - 1; i > 0; i--) {
-				for (int j = 0; j < 3; j++) {
-					treeSet[j][i] = treeSet[j][2 * i] + treeSet[j][2 * i + 1];
+				for (int race = 0; race < 3; race++) {
+					treeSet[race][i] = treeSet[race][2 * i] + treeSet[race][2 * i + 1];
 				}
 			}
 
@@ -50,8 +50,8 @@ public class CountingCalves_SE7088_BU {
 				int L = Integer.parseInt(st.nextToken());
 				int R = Integer.parseInt(st.nextToken());
 				int[] cnt = get(L, R);
-				for (int j = 0; j < 3; j++) {
-					sb.append(cnt[j]).append(" ");
+				for (int race = 0; race < 3; race++) {
+					sb.append(cnt[race]).append(" ");
 				}
 				sb.append("\n");
 			}
