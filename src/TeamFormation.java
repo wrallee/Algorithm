@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class TeamAdminitration {
+public class TeamFormation {
 	// Testcase 30개 | Java 1.5초
 	// 1 <= K < N <= 100,000
 	
