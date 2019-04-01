@@ -11,6 +11,7 @@ public class FindMatrix_SEA1258 {
 	//static Box[] boxes;
 	static HashMap<Integer, Box> boxes;
 	public static void main(String[] args) throws Exception {
+		// SWEA 1258 행렬찾기
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		StringTokenizer st = null;
