@@ -5,15 +5,15 @@ import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 public class TeamFormation {
-	// Testcase 30개 | Java 1.5초
-	// 1 <= K < N <= 100,000
-	
-	// N명의 사람에게 1부터 N까지 번호를 붙인다(중복 가능)
-	// 인접한 사람이 같은 번호이면 팀이 된다
-	// 전체에서 K명을 제외 할 때, 구성할 수 있는 최대 팀원 수
 	static int T, K, N, max;
 	static LinkedList<Pair>[] memo;
 	public static void main(String[] args) throws Exception {
+		// Testcase 30개 | Java 1.5초
+		// 1 <= K < N <= 100,000
+		
+		// N명의 사람에게 1부터 N까지 번호를 붙인다(중복 가능)
+		// 인접한 사람이 같은 번호이면 팀이 된다
+		// 전체에서 K명을 제외 할 때, 구성할 수 있는 최대 팀원 수
 		System.setIn(new FileInputStream("TC.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
