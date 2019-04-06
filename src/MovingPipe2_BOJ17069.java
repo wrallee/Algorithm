@@ -1,10 +1,10 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class MovingPipe1_BOJ17070 {
+public class MovingPipe2_BOJ17069 {
 	static int N;
 	static char[][] map;
-	static int[][][] dp;
+	static long[][][] dp;
 	static int[] dy = {0, 1, 1};
 	static int[] dx = {1, 1, 0};
 	public static void main(String[] args) throws Exception {
@@ -16,12 +16,15 @@ public class MovingPipe1_BOJ17070 {
 		// [0,1]에서 시작한다
 		// [N-1, N-1] 까지 가는 모든 경우의 수
 		// 0 - 가로도착 / 1 - 대각선도착 / 2 - 세로도착
+		
+		// 3^31는 int범위(2^31)를 넘는다
+		// dp 배열의 자료형을 long(2^63)으로 변경한다
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		// INIT
 		N = Integer.parseInt(br.readLine());
 		map = new char[N][N];
-		dp = new int[3][N][N];
+		dp = new long[3][N][N];
 		
 		for (int i = 0; i < N; i++) {
 			map[i] = br.readLine().replace(" ", "").toCharArray();
@@ -39,7 +42,7 @@ public class MovingPipe1_BOJ17070 {
 			}
 		}
 		
-		int sum = 0;
+		long sum = 0;
 		for (int i = 0; i < 3; i++) sum += dp[i][N-1][N-1];
 		
 		System.out.println(sum);
