@@ -10,6 +10,7 @@ public class VillageGroups_SEA7465 {
 	static boolean[][] relation;
 	static Queue<Integer> q;
 	public static void main(String[] args) throws Exception {
+		// SWEA7465: 창용 마을 무리의 개수
 		// BFS
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
