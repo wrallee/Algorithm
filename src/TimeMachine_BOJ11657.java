@@ -3,7 +3,7 @@ import java.util.*;
 
 public class TimeMachine_BOJ11657 {
 	static int N, M;
-	static int[] vertices;
+	static long[] vertices;
 	static Edge[] edges;
 	static final int INF = 987654321;
 	public static void main(String[] args) throws Exception {
@@ -29,7 +29,7 @@ public class TimeMachine_BOJ11657 {
 				if (vertices[e.prev] == INF)
 					continue;
 				
-				int tmpDistance = vertices[e.prev] + e.dist;
+				long tmpDistance = vertices[e.prev] + e.dist;
 				if (vertices[e.next] > tmpDistance) {
 					vertices[e.next] = tmpDistance;
 					flag |= true;
@@ -46,7 +46,7 @@ public class TimeMachine_BOJ11657 {
 			sb.append(-1).append("\n");
 		} else {
 			for (int i = 2; i <= N; i++) {
-				int result = vertices[i] != INF ? vertices[i] : -1;
+				long result = vertices[i] != INF ? vertices[i] : -1;
 				sb.append(result).append("\n");
 			}
 		}
@@ -59,7 +59,7 @@ public class TimeMachine_BOJ11657 {
 		N = Integer.parseInt(input[0]);
 		M = Integer.parseInt(input[1]);
 		
-		vertices = new int[N+1];
+		vertices = new long[N+1];
 		Arrays.fill(vertices, INF);
 		
 		edges = new Edge[M+1];

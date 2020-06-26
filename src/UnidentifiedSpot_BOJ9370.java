@@ -10,7 +10,6 @@ public class UnidentifiedSpot_BOJ9370 {
 	static List<List<Node>> edge;
 	static PriorityQueue<Node> pq;
 	public static void main(String[] args) throws Exception {
-		// 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		T = Integer.parseInt(br.readLine());
@@ -32,13 +31,17 @@ public class UnidentifiedSpot_BOJ9370 {
 			List<Node> list = edge.get(prev.num);
 			for (Node next : list) {
 				int newRoute = dist[prev.num] + next.dist;
+				boolean newPassed = check(prev.num, next.num) | check[prev.num];
 				if (newRoute > dist[next.num])
+					continue;
+				if (newRoute == dist[next.num]
+						&& newPassed == check[next.num])
 					continue;
 				
 				if (newRoute == dist[next.num])
-					check[next.num] |= check[prev.num] | check(prev.num, next.num);
+					check[next.num] |=  newPassed;
 				else // newRoute < dist[next.num]
-					check[next.num] = check[prev.num] | check(prev.num, next.num);
+					check[next.num] = newPassed;
 				
 				dist[next.num] = newRoute;
 				pq.add(new Node(next.num, dist[next.num]));
