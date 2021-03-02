@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BreakingWalls4_BOJ16946 {
+public class BOJ16946_BreakingWalls4 {
 	static int N, M;
 	static char[][] map;
 	static int[][] visit;

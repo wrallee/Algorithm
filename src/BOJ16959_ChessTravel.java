@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class ChessTravel_BOJ16959 {
+public class BOJ16959_ChessTravel {
 	static int T, N, sY, sX;
 	static int[] ntY = { 2, 2, -2, -2, 1, -1, 1, -1 };
 	static int[] ntX = { 1, -1, 1, -1, 2, 2, -2, -2 };

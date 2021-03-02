@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class HitTheEggs_BOJ16987 {
+public class BOJ16987_HitTheEggs {
 	static int N, max;
 	static int[] S, W;
 	public static void main(String[] args) throws IOException {

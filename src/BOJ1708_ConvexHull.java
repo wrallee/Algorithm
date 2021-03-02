@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class ConvexHull_BOJ1708 {
+public class BOJ1708_ConvexHull {
 	static int N;
 	static Dot[] dots;
 	static Stack<Integer> stack;

@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class UnidentifiedSpot_BOJ9370 {
+public class BOJ9370_UnidentifiedSpot {
 	static int T,n,m,t,s,g,h;
 	static int[] dist;
 	static boolean[] check;

@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class VillageGroups_SEA7465 {
+public class SEA7465_VillageGroups {
 	static int T, N, M;
 	static boolean[] visit;
 	static boolean[][] relation;

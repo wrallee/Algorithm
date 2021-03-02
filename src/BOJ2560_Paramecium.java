@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Paramecium_BOJ2560 {
+public class BOJ2560_Paramecium {
 	static int a, b, d, N;
 	static int std, save; // 기준 인덱스, 기준 합
 	static int[] sum;

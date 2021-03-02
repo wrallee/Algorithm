@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.StringTokenizer;
 
-public class FindMatrix_SEA1258 {
+public class SEA1258_FindMatrix {
 	static int testcase, n, subMatrixCount;
 	static int[][] map;
 	//static Box[] boxes;

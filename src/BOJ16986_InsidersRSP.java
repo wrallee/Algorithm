@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class InsidersRSP_BOJ16986 {
+public class BOJ16986_InsidersRSP {
 	static int N, K;
 	static int[][] A;
 	static int[][] actionInfo; // 각 사람이 내는 손동작 순서

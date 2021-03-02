@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class CastleDefense_BOJ17135 {
+public class BOJ17135_CastleDefense {
 	static int N, M, D, max;
 	static int[][] map;
 	static int[] archer;

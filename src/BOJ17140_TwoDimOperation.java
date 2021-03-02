@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class TwoDimOperation_BOJ17140 {
+public class BOJ17140_TwoDimOperation {
 	static int r, c, k;
 	static int xSize, ySize;
 	static int[][] map;

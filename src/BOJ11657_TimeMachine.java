@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class TimeMachine_BOJ11657 {
+public class BOJ11657_TimeMachine {
 	static int N, M;
 	static long[] vertices;
 	static Edge[] edges;

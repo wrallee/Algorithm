@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class LineUp_BOJ2252 {
+class BOJ2252_LineUp {
     static int[] fromCnts;
     static ArrayList<Integer>[] edges;
     public static void main(String[] args) throws Exception {

@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class MovingPipe2_BOJ17069 {
+public class BOJ17069_MovingPipe2 {
 	static int N;
 	static char[][] map;
 	static long[][][] dp;

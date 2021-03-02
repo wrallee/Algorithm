@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class LongestIncreasingSs_BOJ11053 {
+public class BOJ11053_LongestIncreasingSs {
 	static int N;
 	static int[] val;
 	static int[] dp;

@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Maaaaaaaaaze_BOJ16985 {
+public class BOJ16985_Maaaaaaaaaze {
 	static int N, min;
 	static int[][][] cube;
 	static int[][][] visited;

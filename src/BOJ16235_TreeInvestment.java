@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class TreeInvestment_BOJ16235 {
+public class BOJ16235_TreeInvestment {
 	static int N, M, K;
 	static int[][] A, ground;
 	static Queue<Tree> dead, seed;

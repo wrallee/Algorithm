@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class ShortestPath_BOJ1753 {
+public class BOJ1753_ShortestPath {
 	static int V, E, K;
 	static ArrayList<Line>[] lines;
 	static int[] distance;

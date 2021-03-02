@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class CounterClockWise_BOJ11758 {
+public class BOJ11758_CounterClockWise {
 	static Line[] lines;
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

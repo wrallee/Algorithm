@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class DeliveryPartTimeJob_SEA7333 {
+public class SEA7333_DeliveryPartTimeJob {
 	static int T, N;
 	static int[] reqBox;
 	public static void main(String[] args) throws Exception {

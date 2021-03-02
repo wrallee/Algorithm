@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class CareerBuilding {
+public class ETC_CareerBuilding {
 	static int T, N, M;
 	static int[] dp;
 	static int[] salary;

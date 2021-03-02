@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class CountingCarves_SEA7088_DP {
+public class SEA7088_CountingCarves_DP {
 	static int T, N, Q;
 	static int[][] memoSet;
 	static int capa;

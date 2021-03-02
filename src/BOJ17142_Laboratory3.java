@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class Laboratory3_BOJ17142 {
+public class BOJ17142_Laboratory3 {
 	static int N, M, min;
 	static int[][] map, visit;
 	static Node[] installed;

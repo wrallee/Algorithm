@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class PolygonArea_BOJ2166 {
+public class BOJ2166_PolygonArea {
 	static int N;
 	static Line[] lines;
 	static double area;

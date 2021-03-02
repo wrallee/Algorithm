@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.StringTokenizer;
 import java.util.TreeSet;
  
-public class ElectricWire_BOJ2568 {
+public class BOJ2568_ElectricWire {
     static int N, length;
     static LinkedList<Integer> dp;
     static HashMap<Integer, Integer> lines, p, rev;

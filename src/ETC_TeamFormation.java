@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class TeamFormation {
+public class ETC_TeamFormation {
 	static int T, K, N, max;
 	static LinkedList<Pair>[] memo;
 	public static void main(String[] args) throws Exception {

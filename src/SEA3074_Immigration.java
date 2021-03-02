@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Immigration_SEA3074 {
+public class SEA3074_Immigration {
 	static long min, M;
 	static int T, N;
 	static int[] t;

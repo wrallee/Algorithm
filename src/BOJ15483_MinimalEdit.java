@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class MinimalEdit_BOJ15483 {
+public class BOJ15483_MinimalEdit {
 	static int[][] dp;
 	static char[] a, b;
 	public static void main(String[] args) throws Exception {

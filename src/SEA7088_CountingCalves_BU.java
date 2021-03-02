@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class CountingCalves_SEA7088_BU {
+public class SEA7088_CountingCalves_BU {
 	static int T, N, Q;
 	static int[][] treeSet;
 	static int[] value;

@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Gene_BOJ2306 {
+public class BOJ2306_Gene {
 	static int len;
 	static char[] dna;
 	static int[][] dp;

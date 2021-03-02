@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Teleport_BOJ16958 {
+public class BOJ16958_Teleport {
 	static int N, M;
 	static int teleportDistance;
 	static City[] cities;

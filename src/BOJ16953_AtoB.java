@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class AtoB_BOJ16953 {
+public class BOJ16953_AtoB {
 	static int A, B, min = 32;
 	public static void main(String[] args) throws Exception {
 		// BOJ16953 A → B

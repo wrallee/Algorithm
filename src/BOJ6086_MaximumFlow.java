@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class MaximumFlow_BOJ6086 {
+class BOJ6086_MaximumFlow {
     static int[][] edges, flowDashboard;
     static final int A = 0, Z = 25, MAX_V_CNT = 'z'-'A'+1;
     public static void main(String[] args) throws Exception {

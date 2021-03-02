@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Turret_BOJ1002 {
+public class BOJ1002_Turret {
 	static int T, d, r1, r2;
 	static int x1, y1, x2, y2;
 	public static void main(String[] args) throws Exception {

@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
  
-public class BalanceScales_BOJ2629 {
+public class BOJ2629_BalanceScales {
     static int N, M;
     static int[] w, kSum;
     static boolean[][] dp;

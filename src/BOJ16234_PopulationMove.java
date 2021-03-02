@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class PopulationMove_BOJ16234 {
+public class BOJ16234_PopulationMove {
 	static int N, L, R;
 	static int[][] group;
 	static int groupSum;

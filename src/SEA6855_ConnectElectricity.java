@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class ConnectElectricity_SEA6855 {
+public class SEA6855_ConnectElectricity {
 	static int T, N, K;
 	static int[] house;
 	static int[] differ;

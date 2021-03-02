@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class BirthdayParty_SEA5521 {
+public class SEA5521_BirthdayParty {
 	static int T, N, M;
 	static boolean[] visit;
 	static boolean[][] relations;

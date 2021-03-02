@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Baaaaaaaaaduk2Easy_BOJ16988 {
+public class BOJ16988_Baaaaaaaaaduk2Easy {
 	static int N, M;
 	static int max, maxSingle;
 	static int none;

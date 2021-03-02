@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class WinnerPrediction_SEA3459 {
+public class SEA3459_WinnerPrediction {
 	static int T;
 	static long N;
 	public static void main(String[] args) throws Exception {

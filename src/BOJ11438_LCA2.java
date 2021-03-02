@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class LCA2_BOJ11438 {
+class BOJ11438_LCA2 {
     static int N, M, maxJump;
     static int[] level;
     static int[][] parent;

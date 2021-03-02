@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class InstallRouter_BOJ2110 {
+public class BOJ2110_InstallRouter {
 	static int N, C, max;
 	static int[] x;
 	public static void main(String[] args) throws IOException {

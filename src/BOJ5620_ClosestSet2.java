@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.StringTokenizer;
 import java.util.TreeSet;
 
-public class ClosestSet2_BOJ5620 {
+public class BOJ5620_ClosestSet2 {
 	static int N;
 	static Point[] list;
 	static TreeSet<Point> candidates;

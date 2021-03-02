@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class DnaSimilarity_BOJ2612 {
+public class BOJ2612_DnaSimilarity {
 	static int l1, l2, max;
 	static int[] maxEnd;
 	static char[] dna1, dna2;
