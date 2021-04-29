@@ -1,40 +1,43 @@
 import java.util.Arrays;
 
 class PRG42889_실패율 {
-	static class Pair {
+	static class StageInfo {
 		int index;
 		int stay;
 		int pass;
-		public Pair(int index) {
+
+		public StageInfo(int index) {
 			this.index = index;
 		}
+
 		public double getFailRate() {
 			if (stay == 0 && pass == 0) {
 				return 0.0;
 			}
+
 			return (double)stay / pass;
 		}
 	}
 	public int[] solution(int N, int[] stages) {
-		Pair[] pairs = new Pair[N+1];
-		Arrays.setAll(pairs, Pair::new);
+		StageInfo[] stageInfos = new StageInfo[N+2];
+		Arrays.setAll(stageInfos, StageInfo::new);
 
-		for (int stopPoint : stages) {
-			pairs[stopPoint - 1].stay += 1;
+		for (int stoppedStage : stages) {
+			stageInfos[stoppedStage].stay++;
 		}
 
-		for (int i = N; i > 0; i--) {
-			pairs[i-1].pass = pairs[i].pass + pairs[i].stay;
+		for (int i = N + 1; i > 0; i--) {
+			stageInfos[i-1].pass = stageInfos[i].pass + stageInfos[i].stay;
 		}
 
-		pairs = Arrays.copyOfRange(pairs, 0, N);
+		stageInfos = Arrays.copyOfRange(stageInfos, 1, N + 1); // 양 끝 자리 자르기
 
-		return Arrays.stream(pairs)
+		return Arrays.stream(stageInfos)
 			.sorted((p1, p2) -> {
 				int compareResult = Double.compare(p2.getFailRate(), p1.getFailRate());
 				return compareResult != 0 ? compareResult : Integer.compare(p1.index, p2.index);
 			})
-			.mapToInt(pair -> pair.index + 1)
+			.mapToInt(stageInfo -> stageInfo.index)
 			.toArray();
 	}
 }
